@@ -1,0 +1,240 @@
+*{
+    margin: 1;
+    padding: 1;
+    font-family: century Gothic;
+}
+
+.headerbg
+{
+background-image: url("header.gif");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover,cover;
+}
+
+body {
+	background-image: url("bg_.jpg");
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    transition: 3s;
+    
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+
+background-color : lightblue;
+    text-align: center;
+    }
+
+p {
+text-align:left;
+}
+.bg2 {
+	background-image: url("bg3.jpg");
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Phase {
+    animation: blinkingText 2s infinite;
+   font-family: Helvetica;
+text-align: center;
+color: #ddd;
+
+}
+@keyframes blinkingText {
+    from {
+        opacity: 1;
+        color: rgb(143, 4, 16);
+    }
+    to {
+        opacity: 0;
+        color: rgb(14, 180, 233);
+    }
+0% {
+    opacity: 0   
+}
+50% {
+    opacity: 0.5;
+    color: rgb(243, 4, 16);    
+}
+100% {
+    opacity: 1;
+}
+}
+/*p:hover {
+    background-color: rgb(217, 223, 68);
+    color: rgb(230, 23, 23);
+}*/
+.bg3
+{background-image: url("bg4.png");
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;}
+table , th, tr, td {
+    border: 2px Pink;
+    padding: 10px;
+}
+table:hover {
+    background-color: #ddd;
+    color: rgb(200, 124, 25);
+}
+
+
+.vid{
+    margin: 0 auto;
+    width: 2000px;
+}
+
+body, #slide, wrap, .Content
+{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+height: 100vh;
+width: 100%;
+overflow-x:hidden ;
+}
+
+.wrap {
+    position: relative;
+}
+
+.slide {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.b1 {
+    border-radius: 4px;
+    background-color: #e98222;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    /*height: 50px;*/
+    width: 180px;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .b1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+  }
+  
+  .b1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+  }
+  
+  .b1:hover span {
+    padding-right: 25px;
+  }
+  
+  .b1:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .b2 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #2fd1ae;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .b2:hover {background-color: #deeb31}
+  
+  .b2:active {
+    background-color: #207ab6;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.Submit {
+    display: block;
+    width: 100%;
+    border: chartreuse;
+    background-color:orange ;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+
+}
+.Submit:hover {
+    background-color: #ddd;
+    color:chartreuse;
+}
+
+.list a:hover {
+
+  color: pink;
+
+}
+header{
+    background-size: cover;
+    background-position: center;
+}
+ ul li {
+    
+    text-align: left;
+     display: inline-block;
+     color: rgb(56, 44, 114);
+     padding: 3px;
+     border: 1px rgb(43, 137, 231);
+     margin-top: 35spx;   
+}
+
+ul li a{
+    background-color: rgb(5, 0, 5);
+    text-decoration: rgb(255, 0, 0);
+    color: rgb(243, 243, 243);
+    padding: 5px 20px;
+    border:1px solid transparent;
+    transform: 0.5s ease;
+}
+
+.logo{
+    margin-top: 10px;
+    height: 130px;
+}
+
+ul li a:hover{
+    background-color: rgb(191, 38, 238);
+    color: rgb(235, 119, 25);
+}
+
+ul.H{
+    color: rgb(100, 128, 173);
+    margin-right: 200px;
+}
+
